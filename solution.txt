@@ -1,0 +1,17 @@
+1  mkdir ahmad
+2  cd ahmad
+3  touch one.txt two.txt three.txt four.txt
+4  mkdir BAD
+5  cd BAD
+6  touch bad.txt
+7  cd ..
+8  mv one.txt ~/Downloads/
+9  cd ~/Downloads/
+10 cp one.txt copy.txt
+11 cd ..
+12 cd ahmad
+13 nano two.txt
+14 echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-	 	 hello OSC 7-hello OSC 8-hello OSC" >> three.txt
+15 mv three.txt hello.txt
+16 rm four.txt
+17 rm -r BAD  
