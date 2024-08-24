@@ -1,0 +1,2 @@
+cat info.csv | cut -d',' -f2 | sort | uniq > emails.txt
+ps -eo pid,cmd | sort -k2 | awk '{print $1,$2}' > processes.txt
